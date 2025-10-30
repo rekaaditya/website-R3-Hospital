@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3R Hospital - Website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="/" class="logo">3R Hospital</a>
+
+        <ul class="nav-links">
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#articles">Artikel</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+
+        <div class="auth-buttons">
+          <a href="/login" class="btn btn-login">Login</a>
+          <a href="/signup" class="btn btn-signup">Sign In</a>
+        </div>
+
+        <div class="menu-toggle" id="mobile-menu-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu-dropdown">
+          <ul class="mobile-nav-links">
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#articles">Artikel</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+          <div class="mobile-auth-buttons">
+            <a href="/login" class="btn btn-login">Login</a>
+            <a href="/signup" class="btn btn-signup">Sign In</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Kesehatan Anda, Prioritas Kami</h1>
+        <p>
+          Layanan profesional kami didukung oleh teknologi medis terkini. Tim
+          dokter ahli siap memberikan diagnosis akurat dan perawatan inovatif
+          untuk pemulihan optimal Anda. Kami di sini untuk melayani.
+        </p>
+        <a href="#about" class="hero-button">Pelajari Lebih Lanjut</a>
+      </div>
+    </section>
+
+    <section class="services" id="about">
+      <div class="container">
+        <h2 class="section-title">Tentang Kami</h2>
+        <p class="section-subtitle">
+          "Selamat datang di 3R Hospital Kami adalah institusi pelayanan
+          kesehatan terdepan yang berdedikasi untuk memberikan perawatan medis
+          komprehensif dengan standar kualitas tertinggi. Didukung oleh tim
+          dokter spesialis ahli, perawat terampil, dan staf profesional yang
+          berorientasi pada pasien, kami berkomitmen penuh pada keselamatan dan
+          kesembuhan Anda."
+        </p>
+
+        <div class="services-grid" id="services">
+          <div class="service-card">
+            <div class="service-content">
+              <h3>UGD 24 Jam</h3>
+              <p>
+                Tim medis gawat darurat kami siap 24/7 untuk menangani situasi
+                kritis dengan cepat dan profesional.
+              </p>
+              <a href="#" class="service-link">Pelajari Lebih Lanjut →</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-content">
+              <h3>Dokter Spesialis</h3>
+              <p>
+                Temukan dokter spesialis terbaik di bidangnya, dari ahli jantung
+                hingga bedah ortopedi.
+              </p>
+              <a href="#" class="service-link">Temukan Dokter →</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-content">
+              <h3>Rawat Inap Premium</h3>
+              <p>
+                Ruang perawatan yang nyaman dan modern dirancang untuk
+                mempercepat proses pemulihan Anda.
+              </p>
+              <a href="#" class="service-link">Lihat Fasilitas →</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-content">
+              <h3>Laboratorium Akurat</h3>
+              <p>
+                Dilengkapi teknologi canggih untuk hasil tes laboratorium yang
+                cepat, akurat, dan terpercaya.
+              </p>
+              <a href="#" class="service-link">Cek Layanan Lab →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="articles" id="articles">
+      <div class="container">
+        <h2 class="section-title">Artikel Kesehatan Terbaru</h2>
+        <p class="section-subtitle">
+          Informasi dan edukasi kesehatan dari para ahli
+        </p>
+        <div class="articles-grid">
+          <div class="article-card">
+            <img
+              src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=80"
+              alt="Vaksinasi Anak"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-date">📅 25 Oktober 2025</span>
+              <h3>Pentingnya Vaksinasi untuk Anak</h3>
+              <p>
+                Vaksinasi merupakan salah satu cara terbaik untuk melindungi
+                anak dari berbagai penyakit berbahaya...
+              </p>
+              <a href="#" class="service-link">Baca Selengkapnya →</a>
+            </div>
+          </div>
+          <div class="article-card">
+            <img
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80"
+              alt="Kesehatan Jantung"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-date">📅 22 Oktober 2025</span>
+              <h3>Cara Menjaga Kesehatan Jantung</h3>
+              <p>
+                Jantung adalah organ vital yang perlu dijaga. Pelajari tips-tips
+                efektif untuk menjaga kesehatan jantung Anda...
+              </p>
+              <a href="#" class="service-link">Baca Selengkapnya →</a>
+            </div>
+          </div>
+          <div class="article-card">
+            <img
+              src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80"
+              alt="Yoga"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-date">📅 20 Oktober 2025</span>
+              <h3>Manfaat Yoga untuk Kesehatan Mental</h3>
+              <p>
+                Yoga tidak hanya baik untuk fisik, tapi juga kesehatan mental.
+                Temukan bagaimana yoga dapat membantu mengurangi stres...
+              </p>
+              <a href="#" class="service-link">Baca Selengkapnya →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="health-tips" id="tips">
+      <div class="container">
+        <h2 class="section-title">Tips Kesehatan dari Ahli</h2>
+        <p class="section-subtitle">
+          Panduan praktis untuk hidup lebih sehat setiap hari.
+        </p>
+        <div class="tips-grid">
+          <div class="tips-content">
+            <div class="accordion-item">
+              <button class="accordion-header" aria-expanded="false">
+                <span class="tip-icon"></span> Pola Makan Seimbang
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <p>
+                  Konsumsi makanan bergizi dengan komposisi karbohidrat,
+                  protein, lemak sehat, vitamin, dan mineral yang seimbang.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header" aria-expanded="false">
+                <span class="tip-icon"></span> Hidrasi yang Cukup
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <p>
+                  Minum air putih minimal 8 gelas atau 2 liter per hari untuk
+                  membantu metabolisme dan membuang racun.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header" aria-expanded="false">
+                <span class="tip-icon"></span> Olahraga Teratur
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <p>
+                  Lakukan aktivitas fisik minimal 30 menit sehari, 5 kali
+                  seminggu. Pilih olahraga yang Anda sukai.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header" aria-expanded="false">
+                <span class="tip-icon"></span> Tidur Berkualitas
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <p>
+                  Tidur 7-9 jam setiap malam untuk regenerasi sel tubuh. Buat
+                  rutinitas tidur yang konsisten.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tips-image">
+            <img
+              src="https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800"
+              alt="Gaya Hidup Sehat"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <p class="section-subtitle">
+          Punya pertanyaan atau butuh bantuan? Jangan ragu untuk menghubungi
+          kami.
+        </p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Informasi Kontak 3R Hospital</h3>
+            <p>
+              Kami siap melayani Anda 24 jam. Hubungi kami melalui salah satu
+              cara di bawah ini.
+            </p>
+            <ul class="info-list">
+              <li>
+                <span class="info-icon">📍</span>
+                <div class="info-text">
+                  <h4>Alamat</h4>
+                  <p>Jl. Kesehatan No. 123, Jakarta, Indonesia 12345</p>
+                </div>
+              </li>
+              <li>
+                <span class="info-icon">📞</span>
+                <div class="info-text">
+                  <h4>Telepon (UGD 24 Jam)</h4>
+                  <p>(021) 1234-5678</p>
+                </div>
+              </li>
+              <li>
+                <span class="info-icon">📧</span>
+                <div class="info-text">
+                  <h4>Email</h4>
+                  <p>info@3rhospital.com</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-form">
+            <h3>Kirim Pesan</h3>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Nama Lengkap</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">No. HP (Opsional)</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="form-group">
+                <label for="message">Pesan Anda</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-submit">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3 class="footer-logo">3R Hospital</h3>
+            <p>
+              Menyediakan layanan kesehatan berkualitas tinggi dengan pendekatan
+              yang peduli dan profesional.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Navigasi</h4>
+            <ul>
+              <li><a href="#about">Tentang Kami</a></li>
+              <li><a href="#services">Layanan</a></li>
+              <li><a href="#articles">Artikel</a></li>
+              <li><a href="#contact">Kontak</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Layanan</h4>
+            <ul>
+              <li><a href="#services">UGD 24 Jam</a></li>
+              <li><a href="#services">Dokter Spesialis</a></li>
+              <li><a href="#services">Rawat Inap</a></li>
+              <li><a href="#services">Laboratorium</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Hubungi Kami</h4>
+            <p>📍 Jl. Kesehatan No. 123, Jakarta</p>
+            <p>📞 (021) 1234-5678</p>
+            <div class="social-links">
+              <a href="#" aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="#" aria-label="Facebook"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 3R Hospital. All Rights Reserved. | Didesain oleh
+          <strong>Reka Aditya</strong>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // ===================================
+      // KODE UNTUK HAMBURGER MENU
+      // ===================================
+      const mobileMenuButton = document.getElementById("mobile-menu-button");
+      const mobileMenuDropdown = document.getElementById(
+        "mobile-menu-dropdown"
+      );
+
+      if (mobileMenuButton && mobileMenuDropdown) {
+        mobileMenuButton.addEventListener("click", () => {
+          mobileMenuDropdown.classList.toggle("active");
+        });
+
+        window.addEventListener("click", (e) => {
+          if (
+            !mobileMenuButton.contains(e.target) &&
+            !mobileMenuDropdown.contains(e.target)
+          ) {
+            mobileMenuDropdown.classList.remove("active");
+          }
+        });
+      }
+
+      // ===================================
+      // KODE UNTUK ACCORDION TIPS KESEHATAN
+      // ===================================
+      const accordionHeaders = document.querySelectorAll(".accordion-header");
+
+      accordionHeaders.forEach((header) => {
+        header.addEventListener("click", () => {
+          const accordionItem = header.parentElement;
+          const isActive = accordionItem.classList.contains("active");
+
+          // Tutup semua accordion lain dulu
+          accordionHeaders.forEach((otherHeader) => {
+            otherHeader.parentElement.classList.remove("active");
+          });
+
+          // Buka/tutup yang diklik
+          if (!isActive) {
+            accordionItem.classList.add("active");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
